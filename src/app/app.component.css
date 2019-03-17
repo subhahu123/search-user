@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+
+.row {
+  display: flex ;
+}
+
+.column {
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  height: 25px
+}
+

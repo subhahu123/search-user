@@ -1,0 +1,14 @@
+<h1 class="column"> {{ name }} </h1>
+<div class="container">
+  <div class="">
+  <input class="column" type="text" autofocus id="userInput" placeholder="username" (keyup)="getdata($event)" value="">
+  </div>
+  <div class="container" id="user">
+    <div class="row">
+      <div class="column" *ngIf="user.url">
+        <img [src] = "user.url"  height="100px" width="100px" >
+        <p>{{user.name}}</p>
+      </div>
+    </div>
+  </div>
+</div>
